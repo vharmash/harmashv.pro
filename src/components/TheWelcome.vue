@@ -1,13 +1,19 @@
 <script setup lang="ts">
 import WelcomeItem from './WelcomeItem.vue'
+import CVItem from './CVItem.vue'
 import GreetingIcon from './icons/IconGreeting.vue'
 import ToolingIcon from './icons/IconTooling.vue'
 import LinkedInIcon from './icons/IconLinkedIn.vue'
 import CommunityIcon from './icons/IconCommunity.vue'
 import SupportIcon from './icons/IconSupport.vue'
+import cv from './cv'
+import ToTop from './ToTop.vue'
+// console.log(cv)
+
 </script>
 
 <template>
+
   <WelcomeItem>
     <template #icon>
       <GreetingIcon />
@@ -29,7 +35,7 @@ import SupportIcon from './icons/IconSupport.vue'
 
     <p>
       Having worked at GlobalLogic in a range of roles, I have mastered the art of handling complex
-      multi-component systems, resolving user-generated issues, driving automation for bulk tasks,
+      multi-component systems, resolving user issues, driving automation for bulk tasks,
       and providing mentorship and support to teams. I'm also quite familiar with creating
       interactive user interfaces using modern technologies like VUE and Tailwind CSS.
     </p>
@@ -46,26 +52,38 @@ import SupportIcon from './icons/IconSupport.vue'
     </p>
   </WelcomeItem>
 
+      <WelcomeItem>
+        <template #icon>
+          <CommunityIcon />
+        </template>
+        <template #heading>Quick Summary</template>
+        <ul class="my-2">
+          <li v-for="item of cv.general_summary" :key="item" class="m-0">
+          {{ item }}
+          </li>
+        </ul>
+      </WelcomeItem>
+
   <WelcomeItem>
     <template #icon>
       <ToolingIcon />
     </template>
     <template #heading>Experience</template>
+    <template v-for="item of cv.professional_experience" :key="item.period" >
+      <CVItem :item="item" />
+    </template>
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
       <SupportIcon />
     </template>
-    <template #heading>Ecosystem</template>
-
-    Get official tools and libraries for your project:
-    <a href="https://pinia.vuejs.org/" target="_blank" rel="noopener">Pinia</a>,
-    <a href="https://router.vuejs.org/" target="_blank" rel="noopener">Vue Router</a>,
-    <a href="https://test-utils.vuejs.org/" target="_blank" rel="noopener">Vue Test Utils</a>, and
-    <a href="https://github.com/vuejs/devtools" target="_blank" rel="noopener">Vue Dev Tools</a>. If
-    you need more resources, we suggest paying
-    <a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">Awesome Vue</a>
-    a visit.
+    <template #heading>Recent Tech Experience</template>
+    <ul class="my-2">
+      <li v-for="(value, key) in cv.recent_tech_experience" :key="key" class="m-0">
+      <strong class="strong">{{ key }}:</strong> <span>{{ value }}</span>
+      </li>
+    </ul>
   </WelcomeItem>
+  <ToTop />
 </template>

@@ -1,20 +1,42 @@
-<template>
-  <div class="prose prose-zinc !prose-invert max-w-none item">
-    <div class="flex gap-2">
-      <div class="">
-        <i class="flex items-center place-content-center place-items-center w-8 h-8">
-          <slot name="icon"></slot>
-        </i>
-      </div>
-      <div>
-        <h3 class="p-0 m-0">
-          <slot name="heading"></slot>
-        </h3>
+<script lang='ts' setup>
+import { ref } from 'vue'
+
+const dog = defineProps({
+  item: {
+    type: Object,
+    required: true
+  }
+}
+)
+
+const entry = ref(dog.item)
+
+</script>
+<template v-if="entry">
+  <div class="prose prose-stone !prose-invert max-w-none prose-li:my-0 hover:border-zinc-500 hover:shadow-sm px-4 py-2 mb-3 rounded-md border border-zinc-600">
+
+    <div class="grid grid-cols-2 items-center">
+      <h4 class="text-lg p-0 m-0 underline decoration-double decoration-amber-500">
+        {{ entry.role }}
+      </h4>
+      <div class="font-semibold tracking-wider">
+        {{ entry.company }}
+        <div class="font-light tracking-wider text-cyan-300/60">
+          {{ entry.period }}
+        </div>
       </div>
     </div>
-    <div class="details">
-      <slot></slot>
-    </div>
+    <h5 class="italic font-light tracking-wider">Impact:</h5>
+    <ul class="my-2">
+      <li v-for="i in entry.impact" :key="i" class="even:text-slate-300">
+        {{ i }}
+      </li>
+    </ul>
+    <h5 class="italic font-light tracking-wider">Responsibilities:</h5>
+    <ul class="my-2">
+      <li v-for="i in entry.responsibilities" :key="i" class="even:text-slate-300">
+        {{ i }}
+      </li>
+    </ul>
   </div>
 </template>
-<style scoped></style>
