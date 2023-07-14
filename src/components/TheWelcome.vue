@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import WelcomeItem from './WelcomeItem.vue'
-import DocumentationIcon from './icons/IconDocumentation.vue'
+import GreetingIcon from './icons/IconGreeting.vue'
 import ToolingIcon from './icons/IconTooling.vue'
-import EcosystemIcon from './icons/IconEcosystem.vue'
+import LinkedInIcon from './icons/IconLinkedIn.vue'
 import CommunityIcon from './icons/IconCommunity.vue'
 import SupportIcon from './icons/IconSupport.vue'
 </script>
@@ -10,38 +10,55 @@ import SupportIcon from './icons/IconSupport.vue'
 <template>
   <WelcomeItem>
     <template #icon>
-      <DocumentationIcon />
+      <GreetingIcon />
     </template>
-    <template #heading>Documentation</template>
+    <template #heading>Introduction</template>
+    <p>
+      Hello, I'm Volodymyr, a seasoned IT professional with over a decade of experience immersed in various facets of
+      technology. I hold a demonstrated history of successfully navigating the Linux environment, designing efficient QoL
+      scripts using Python, and streamlining operations using a plethora of tools including JavaScript, Groovy, Jenkins,
+      GIT/Gerrit, and more.
+    </p>
 
-    Vue’s
-    <a href="https://vuejs.org/" target="_blank" rel="noopener">official documentation</a>
-    provides you with all information you need to get started.
+    <p>
+      Throughout my career, I've established a reputation for my strong troubleshooting capabilities, rapid
+      decision-making
+      skills, and an unwavering commitment to client satisfaction and quality. Not only do I have a deep technical
+      expertise, but I also take pride in my capacity for rapid learning and self-improvement.
+    </p>
+
+    <p>
+      Having worked at GlobalLogic in a range of roles, I have mastered the art of handling complex multi-component
+      systems,
+      resolving user-generated issues, driving automation for bulk tasks, and providing mentorship and support to teams.
+      I'm also quite familiar with creating interactive user interfaces using modern technologies like VUE and Tailwind
+      CSS.
+    </p>
+
+    <p>
+      In addition to my professional achievements, I bring a set of personal attributes that further enhance my value.
+      I'm ambitious, detail-oriented, and passionate, always seeking perfection in my endeavors. I understand the
+      importance of communication and thrive in a team environment.
+    </p>
+    <p>
+    Take a look at my experience and skills below to learn more about the ways I've helped shape the digital landscape at
+    GlobalLogic and how I can bring that same passion, expertise, and dedication to your team.
+    </p>
+
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
       <ToolingIcon />
     </template>
-    <template #heading>Tooling</template>
+    <template #heading>Experience</template>
 
-    This project is served and bundled with
-    <a href="https://vitejs.dev/guide/features.html" target="_blank" rel="noopener">Vite</a>. The
-    recommended IDE setup is
-    <a href="https://code.visualstudio.com/" target="_blank" rel="noopener">VSCode</a> +
-    <a href="https://github.com/johnsoncodehk/volar" target="_blank" rel="noopener">Volar</a>. If
-    you need to test your components and web pages, check out
-    <a href="https://www.cypress.io/" target="_blank" rel="noopener">Cypress</a> and
-    <a href="https://on.cypress.io/component" target="_blank">Cypress Component Testing</a>.
 
-    <br />
-
-    More instructions are available in <code>README.md</code>.
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
-      <EcosystemIcon />
+      <SupportIcon />
     </template>
     <template #heading>Ecosystem</template>
 
@@ -55,32 +72,4 @@ import SupportIcon from './icons/IconSupport.vue'
     a visit.
   </WelcomeItem>
 
-  <WelcomeItem>
-    <template #icon>
-      <CommunityIcon />
-    </template>
-    <template #heading>Community</template>
-
-    Got stuck? Ask your question on
-    <a href="https://chat.vuejs.org" target="_blank" rel="noopener">Vue Land</a>, our official
-    Discord server, or
-    <a href="https://stackoverflow.com/questions/tagged/vue.js" target="_blank" rel="noopener"
-      >StackOverflow</a
-    >. You should also subscribe to
-    <a href="https://news.vuejs.org" target="_blank" rel="noopener">our mailing list</a> and follow
-    the official
-    <a href="https://twitter.com/vuejs" target="_blank" rel="noopener">@vuejs</a>
-    twitter account for latest news in the Vue world.
-  </WelcomeItem>
-
-  <WelcomeItem>
-    <template #icon>
-      <SupportIcon />
-    </template>
-    <template #heading>Support Vue</template>
-
-    As an independent project, Vue relies on community backing for its sustainability. You can help
-    us by
-    <a href="https://vuejs.org/sponsor/" target="_blank" rel="noopener">becoming a sponsor</a>.
-  </WelcomeItem>
 </template>
