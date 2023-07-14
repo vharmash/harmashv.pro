@@ -1,4 +1,4 @@
-<script lang='ts' setup>
+<script lang="ts" setup>
 import { ref } from 'vue'
 
 const dog = defineProps({
@@ -6,15 +6,14 @@ const dog = defineProps({
     type: Object,
     required: true
   }
-}
-)
+})
 
 const entry = ref(dog.item)
-
 </script>
 <template v-if="entry">
-  <div class="prose prose-stone !prose-invert max-w-none prose-li:my-0 hover:border-zinc-500 hover:shadow-sm px-4 py-2 mb-3 rounded-md border border-zinc-700">
-
+  <div
+    class="prose prose-stone !prose-invert max-w-none prose-li:my-0 hover:border-zinc-500 hover:shadow-sm px-4 py-2 mb-3 rounded-md border border-zinc-700"
+  >
     <div class="flex items-center place-content-evenly">
       <div>
         <h4 class="text-lg p-0 m-0 underline decoration-double decoration-amber-500">
@@ -27,9 +26,9 @@ const entry = ref(dog.item)
         <div class="font-light text-cyan-300/80">
           {{ entry.period }}
         </div>
-          <div class="font-light text-amber-300/80">
-            {{ entry.industry }}
-          </div>
+        <div class="font-light text-amber-300/80">
+          {{ entry.industry }}
+        </div>
       </div>
     </div>
     <h5 class="italic font-light tracking-wider">Impact:</h5>
