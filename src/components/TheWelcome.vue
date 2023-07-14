@@ -14,37 +14,36 @@ import SupportIcon from './icons/IconSupport.vue'
     </template>
     <template #heading>Introduction</template>
     <p>
-      Hello, I'm Volodymyr, a seasoned IT professional with over a decade of experience immersed in various facets of
-      technology. I hold a demonstrated history of successfully navigating the Linux environment, designing efficient QoL
-      scripts using Python, and streamlining operations using a plethora of tools including JavaScript, Groovy, Jenkins,
-      GIT/Gerrit, and more.
+      Hello, I'm Volodymyr, a seasoned IT professional with over a decade of experience immersed in
+      various facets of technology. I hold a demonstrated history of successfully navigating the
+      Linux environment, designing efficient QoL scripts using Python, and streamlining operations
+      using a plethora of tools including JavaScript, Groovy, Jenkins, GIT/Gerrit, and more.
     </p>
 
     <p>
-      Throughout my career, I've established a reputation for my strong troubleshooting capabilities, rapid
-      decision-making
-      skills, and an unwavering commitment to client satisfaction and quality. Not only do I have a deep technical
-      expertise, but I also take pride in my capacity for rapid learning and self-improvement.
+      Throughout my career, I've established a reputation for my strong troubleshooting
+      capabilities, rapid decision-making skills, and an unwavering commitment to client
+      satisfaction and quality. Not only do I have a deep technical expertise, but I also take pride
+      in my capacity for rapid learning and self-improvement.
     </p>
 
     <p>
-      Having worked at GlobalLogic in a range of roles, I have mastered the art of handling complex multi-component
-      systems,
-      resolving user-generated issues, driving automation for bulk tasks, and providing mentorship and support to teams.
-      I'm also quite familiar with creating interactive user interfaces using modern technologies like VUE and Tailwind
-      CSS.
+      Having worked at GlobalLogic in a range of roles, I have mastered the art of handling complex
+      multi-component systems, resolving user-generated issues, driving automation for bulk tasks,
+      and providing mentorship and support to teams. I'm also quite familiar with creating
+      interactive user interfaces using modern technologies like VUE and Tailwind CSS.
     </p>
 
     <p>
-      In addition to my professional achievements, I bring a set of personal attributes that further enhance my value.
-      I'm ambitious, detail-oriented, and passionate, always seeking perfection in my endeavors. I understand the
-      importance of communication and thrive in a team environment.
+      In addition to my professional achievements, I bring a set of personal attributes that further
+      enhance my value. I'm ambitious, detail-oriented, and passionate, always seeking perfection in
+      my endeavors. I understand the importance of communication and thrive in a team environment.
     </p>
     <p>
-    Take a look at my experience and skills below to learn more about the ways I've helped shape the digital landscape at
-    GlobalLogic and how I can bring that same passion, expertise, and dedication to your team.
+      Take a look at my experience and skills below to learn more about the ways I've helped shape
+      the digital landscape at GlobalLogic and how I can bring that same passion, expertise, and
+      dedication to your team.
     </p>
-
   </WelcomeItem>
 
   <WelcomeItem>
@@ -52,8 +51,6 @@ import SupportIcon from './icons/IconSupport.vue'
       <ToolingIcon />
     </template>
     <template #heading>Experience</template>
-
-
   </WelcomeItem>
 
   <WelcomeItem>
@@ -71,5 +68,4 @@ import SupportIcon from './icons/IconSupport.vue'
     <a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">Awesome Vue</a>
     a visit.
   </WelcomeItem>
-
 </template>
