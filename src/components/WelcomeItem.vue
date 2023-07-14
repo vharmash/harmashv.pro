@@ -1,5 +1,5 @@
 <template>
-  <div class="prose prose-zinc !prose-invert prose-strong:underline prose-strong:decoration-cyan-400 max-w-none px-4 pb-2 mb-4 rounded-md border border-zinc-600">
+  <div class="prose prose-zinc !prose-invert prose-strong:underline prose-strong:decoration-cyan-400 prose-strong:font-medium max-w-none px-4 pb-2 mb-4 rounded-md border border-zinc-600">
     <div class="flex gap-2 pt-4 pb-2">
       <div class="">
         <i class="flex items-center place-content-center place-items-center w-8 h-8">

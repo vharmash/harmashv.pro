@@ -4,46 +4,51 @@ const cv = {
       role: 'Senior Product Support Engineer',
       company: 'GlobalLogic, Remote',
       period: 'Oct 2021 – Present',
+      industry: 'Digital Media Supply Chain',
+      outline: 'Product Support for a major media supply chain vendor',
       impact: [
-        'Designed and implemented a CLI Dashboard app to monitor several key workflows for internal team usage',
-        'Designed and implemented a Chrome Extension to streamline access to select internal API functions, enhancing usability and convenience for the team',
-        'Designed and implemented a single-page web UI to provide better workflow component breakdown using VUE, Tailwind CSS and pulling data from internal APIs'
+        'Devised and executed a Python-based CLI dashboard app to streamline key internal workflow monitoring',
+        'Engineered and launched a Chrome Extension to provide simplified access to key internal API functions, thereby enhancing team usability and convenience',
+        'Architected and implemented a single-page web interface using VUE and Tailwind CSS, to deliver a more comprehensible workflow component breakdown, leveraging data from internal APIs'
       ],
       responsibilities: [
-        'Tier 1-2 Support for user-generated issues via Jira, guiding users, resolving reported issues, escalating bugs to the responsible teams',
-        'Digital Asset/Inventory troubleshooting, involving codecs, formats, standards, specifications mismatch/misuse',
-        'Automation of mundane and bulk tasks, such as bulk order operations and workflow monitoring using Python and internal APIs',
-        'Providing mentorship and support to the team by resolving complex issues that others find challenging to troubleshoot',
-        'Documenting SOPs and WAs for the frequently encountered issues on Confluence',
-        'Monitoring key platform metrics for unusual symptoms'
+        'Providing Tier 1-2 support for user-generated issues via Jira, including user guidance, issue resolution, and escalation of bugs to the appropriate teams',
+        'Engaging in digital asset/inventory troubleshooting, with a focus on codecs, formats, standards, and specification mismatches/misuses',
+        'Automating routine and bulk tasks, including bulk order operations and workflow monitoring, using Python and internal APIs',
+        'Furnishing team support and mentorship by tackling complex issues that present challenges for others',
+        'Documenting standard operating procedures and workarounds for common issues in Confluence',
+        'Conducted regular monitoring of key platform metrics to identify anomalous activity'
       ]
     },
     {
       role: 'Installation Verification Engineer',
       company: 'GlobalLogic, Hybrid',
       period: 'Feb 2019 – Oct 2021 (2Y 9M)',
+      industry: 'Telecommunications',
+      outline: 'Product Installation and Verification lifecycle for a major telecom vendor',
       responsibilities: [
-        'Managing the below workflow for the whole product line of 10+ currently supported software versions:',
-        '“Cleanroom” stage for releasing maintenance updates/patches',
-        'Bare metal RedHat 7.4 server install and setup',
-        'Product installation (15+ KVM/RHOSP VMs deployment)',
-        'Jenkins-based auto-QA tests environment: development, preparation and running of groovy pipelines',
-        'Installation of Product Updates/Patches',
-        'Troubleshooting of the above in case of issues',
-        'Documentation verification on matching the actual product/patch/update installation flow',
-        'Documenting workflows, bugs, and activity tracking in JIRA/Confluence',
-        'Collaboration with developers from around the world on problem troubleshooting',
+        'Managing workflow across a product line consisting of 10+ supported software versions',
+        'Supervising the "Cleanroom" stage for the release of maintenance updates/patches',
+        'Executing bare metal server setup using RedHat 7.4',
+        'Overseeing the deployment of 15+ KVM/RHOSP VMs for product installation',
+        'Developing, preparing, and executing Jenkins-based auto-QA tests with Groovy pipelines',
+        'Handling installation and troubleshooting of product updates/patches',
+        'Ensuring documentation matches actual product installation procedures',
+        'Documenting workflows and bugs, and tracking activities in JIRA/Confluence',
+        'Collaborating with global developer teams for troubleshooting',
         'Interviewing newcomers and mentoring team members',
-        'Technical Lead role for the team: providing mentorship and support to the team by resolving complex issues that others find challenging to troubleshoot, overseeing the team processes'
+        'Providing mentorship and support to the team by resolving complex issues that others find challenging to troubleshoot'
       ],
       impact: [
-        'Contributed to the spotless release of 20+ maintenance updates across the product line'
+        'Contributed to the spotless releases of 20+ maintenance updates across the product line'
       ]
     },
     {
       role: 'Product Support Engineer',
       company: 'GlobalLogic, On-Site',
       period: 'Aug 2016 – Feb 2019 (2Y 7M)',
+      industry: 'Telecommunications',
+      outline: 'VAS platform support for a mobile operator',
       responsibilities: [
         'Facilitating improvement development through communication with customer and developers on business requirements and technical limitations',
         'Oracle RAC 11g configuration and support',

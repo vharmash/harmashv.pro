@@ -55,9 +55,9 @@ import IconLinkedIn from './components/icons/IconLinkedIn.vue'
   <div class="inset-x-0 bottom-4 pt-8 lg:pt-10 pb-3 text-xs text-center text-neutral-500">
     <a href="https://github.com/vharmash/harmashv.pro" target="_blank" rel="noopener nofollow noreferrer"
     class="underline hover:text-neutral-400"
-      >Harmash V ©️ 2023</a
+      >Harmash V &copy; Kyiv, Ukraine<br> 2023</a
     >
-    <div class="inset-x-0 bottom-4 mx-auto w-6 h-6">
+    <div class="inset-x-0 bottom-4 mx-auto w-5 h-5">
       <IconFlag />
     </div>
   </div>
