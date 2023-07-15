@@ -5,7 +5,6 @@ import GreetingIcon from './icons/IconGreeting.vue'
 import ToolingIcon from './icons/IconTooling.vue'
 import CommunityIcon from './icons/IconCommunity.vue'
 import SupportIcon from './icons/IconSupport.vue'
-import IconLinkedIn from './icons/IconLinkedIn.vue'
 import cv from './cv'
 import ToTop from './ToTop.vue'
 // console.log(cv)

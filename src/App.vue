@@ -37,13 +37,7 @@ import IconLinkedIn from './components/icons/IconLinkedIn.vue'
           <h2 class="text-lg font-mono text-cyan-300">Senior Engineer, Support</h2>
         </div>
         <div>
-          <img
-            src="/facepic.png"
-            alt="Profile Pic"
-            height="200"
-            width="200"
-            class="w-36 lg:w-48"
-          />
+          <img src="/facepic.png" alt="Profile Pic" height="200" width="200" class="w-36 lg:w-48" />
         </div>
       </div>
     </div>
@@ -52,14 +46,16 @@ import IconLinkedIn from './components/icons/IconLinkedIn.vue'
   <RouterView />
 
   <div class="inset-x-0 bottom-4 pt-8 lg:pt-10 pb-3 text-xs text-center text-zinc-500">
-    <div class="flex items-center place-content-center pb-2">      <a
-          href="https://www.linkedin.com/in/volodymyr-harmash/"
-          target="_blank"
-          rel="noopener nofollow noreferrer"
-          class="hover:bg-zinc-600 hover:text-white hover:shadow-md p-1 text-center rounded-md"
-        >
-          <IconLinkedIn />
-        </a></div>
+    <div class="flex items-center place-content-center pb-2">
+      <a
+        href="https://www.linkedin.com/in/volodymyr-harmash/"
+        target="_blank"
+        rel="noopener nofollow noreferrer"
+        class="hover:bg-zinc-600 hover:text-white hover:shadow-md p-1 text-center rounded-md"
+      >
+        <IconLinkedIn />
+      </a>
+    </div>
     <a
       href="https://github.com/vharmash/harmashv.pro"
       target="_blank"
