@@ -1,6 +1,6 @@
 <template>
   <div
-    class="prose prose-zinc !prose-invert prose-strong:underline prose-strong:decoration-cyan-400 prose-strong:font-medium max-w-none px-4 pb-2 mb-4 rounded-md border border-zinc-600 hover:border-zinc-500 hover:shadow-sm"
+    class="prose prose-zinc !prose-invert prose-a:decoration-amber-600 prose-strong:decoration-cyan-400 prose-strong:font-semibold max-w-none px-4 pb-2 mb-4 rounded-md border border-zinc-600 hover:border-zinc-500 hover:shadow-sm"
   >
     <div class="flex gap-2 pt-4 pb-2">
       <div class="">

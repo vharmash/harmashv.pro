@@ -48,11 +48,11 @@ export default defineComponent({
     },
     right: {
       type: String,
-      default: '4rem'
+      default: '2rem'
     },
     bottom: {
       type: String,
-      default: '2rem'
+      default: '3rem'
     }
   },
   setup(props, context) {

@@ -5,6 +5,7 @@ import GreetingIcon from './icons/IconGreeting.vue'
 import ToolingIcon from './icons/IconTooling.vue'
 import CommunityIcon from './icons/IconCommunity.vue'
 import SupportIcon from './icons/IconSupport.vue'
+import IconLinkedIn from './icons/IconLinkedIn.vue'
 import cv from './cv'
 import ToTop from './ToTop.vue'
 // console.log(cv)
@@ -54,6 +55,7 @@ import ToTop from './ToTop.vue'
       the digital landscape at GlobalLogic and how I can bring that same passion, expertise, and
       dedication to your team.
     </p>
+    <p>Please feel free to reach out to me at <a href="">LinkedIn</a></p>
   </WelcomeItem>
 
   <WelcomeItem>
