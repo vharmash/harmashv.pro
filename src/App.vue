@@ -63,8 +63,8 @@ import { src as placeholder, width, height } from './assets/facepic.png?w=200&as
 
   <RouterView />
 
-  <div class="inset-x-0 bottom-4 pt-8 lg:pt-10 pb-3 text-xs text-center text-zinc-500">
-    <div class="flex items-center place-content-center pb-2">
+  <div class="inset-x-0 bottom-4 pt-8 lg:pt-10 pb-3 text-xs text-center text-zinc-400">
+    <div class="flex items-center place-content-center pb-3">
       <a
         href="https://www.linkedin.com/in/volodymyr-harmash/"
         target="_blank"
@@ -78,7 +78,7 @@ import { src as placeholder, width, height } from './assets/facepic.png?w=200&as
       href="https://github.com/vharmash/harmashv.pro"
       target="_blank"
       rel="noopener nofollow noreferrer"
-      class="underline hover:text-neutral-400"
+      class="underline hover:text-neutral-300"
       >Harmash V &copy; Kyiv, Ukraine<br />
       2023</a
     >
