@@ -26,8 +26,8 @@ devDependencies:
     specifier: ^21.1.1
     version: 21.1.1
   '@types/node':
-    specifier: ^18.16.19
-    version: 18.16.19
+    specifier: ^20.4.2
+    version: 20.4.2
   '@vitejs/plugin-vue':
     specifier: ^4.2.3
     version: 4.2.3(vite@4.4.4)(vue@3.3.4)
@@ -69,7 +69,7 @@ devDependencies:
     version: 5.1.6
   vite:
     specifier: ^4.4.4
-    version: 4.4.4(@types/node@18.16.19)
+    version: 4.4.4(@types/node@20.4.2)
   vite-imagetools:
     specifier: ^5.0.5
     version: 5.0.5
@@ -483,6 +483,10 @@ packages:
     resolution: {integrity: sha512-IXl7o+R9iti9eBW4Wg2hx1xQDig183jj7YLn8F7udNceyfkbn1ZxmzZXuak20gR40D7pIkIY1kYGx5VIGbaHKA==}
     dev: true
 
+  /@types/node@20.4.2:
+    resolution: {integrity: sha512-Dd0BYtWgnWJKwO1jkmTrzofjK2QXXcai0dmtzvIBhcA+RsG5h8R3xlyta0kGOZRNfL9GuRtb1knmPEhQrePCEw==}
+    dev: true
+
   /@types/semver@7.5.0:
     resolution: {integrity: sha512-G8hZ6XJiHnuhQKR7ZmysCeJWE08o8T0AXtk5darsCaTVsYZhhgUrq53jizaR2FvsoeCwJhlmwTjkXBY5Pn/ZHw==}
     dev: true
@@ -628,7 +632,7 @@ packages:
       vite: ^4.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 4.4.4(@types/node@18.16.19)
+      vite: 4.4.4(@types/node@20.4.2)
       vue: 3.3.4
     dev: true
 
@@ -3189,10 +3193,10 @@ packages:
       vite: ^3.0.0 || ^4.0.0
     dependencies:
       mime-types: 2.1.35
-      vite: 4.4.4(@types/node@18.16.19)
+      vite: 4.4.4(@types/node@20.4.2)
     dev: true
 
-  /vite@4.4.4(@types/node@18.16.19):
+  /vite@4.4.4(@types/node@20.4.2):
     resolution: {integrity: sha512-4mvsTxjkveWrKDJI70QmelfVqTm+ihFAb6+xf4sjEU2TmUCTlVX87tmg/QooPEMQb/lM9qGHT99ebqPziEd3wg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -3220,7 +3224,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 18.16.19
+      '@types/node': 20.4.2
       esbuild: 0.18.13
       postcss: 8.4.26
       rollup: 3.26.2
