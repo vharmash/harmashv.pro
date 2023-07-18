@@ -10,8 +10,6 @@ import srcsetWebp from './assets/facepic.png?w=100;200;300&format=webp&as=srcset
 // create a small placeholder and import its metadata
 // @ts-ignore
 import { src as placeholder, width, height } from './assets/facepic.png?w=200&as=metadata'
-
-
 </script>
 
 <template>
@@ -43,18 +41,16 @@ import { src as placeholder, width, height } from './assets/facepic.png?w=200&as
     <div class="">
       <div class="pt-6 pb-8 w-full flex items-center place-content-evenly">
         <div>
-          <h1 class="text-2xl lg:text-4xl font-mono font-semibold py-2 px-4 md:px-0">Volodymyr Harmash</h1>
+          <h1 class="text-2xl lg:text-4xl font-mono font-semibold py-2 px-4 md:px-0">
+            Volodymyr Harmash
+          </h1>
           <h2 class="text-lg font-mono text-cyan-300 px-4 md:px-0">Senior Engineer, Support</h2>
         </div>
         <div>
           <picture class="w-36 lg:w-48">
-            <source :scrset=srcsetAvif type="image/avif"/>
-            <source :srcset=srcsetWebp type="image/webp"/>
-            <img 
-                :src=placeholder
-                :width=width
-                :height=height
-                alt="Profile Pic"/>
+            <source :scrset="srcsetAvif" type="image/avif" />
+            <source :srcset="srcsetWebp" type="image/webp" />
+            <img :src="placeholder" :width="width" :height="height" alt="Profile Pic" />
           </picture>
         </div>
       </div>

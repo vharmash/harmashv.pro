@@ -1,6 +1,4 @@
-import { fileURLToPath, URL } from 'node:url'
-
-import { build, defineConfig } from 'vite'
+import { defineConfig } from 'vite'
 import { imagetools } from 'vite-imagetools'
 import VitePluginInjectPreload from 'vite-plugin-inject-preload'
 import vue from '@vitejs/plugin-vue'
