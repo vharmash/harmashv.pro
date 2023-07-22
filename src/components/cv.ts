@@ -5,7 +5,8 @@ const cv = {
       company: 'GlobalLogic, Remote',
       period: 'Oct 2021 – Present',
       industry: 'Digital Media Supply Chain',
-      outline: 'Product Support for a major media supply chain vendor',
+      outline:
+        'Leading a Team of 10, providing support for internal workflows of a major media supply chain vendor',
       impact: [
         'Devised and executed a Python-based CLI dashboard app to streamline key internal workflow monitoring',
         'Engineered and launched a Chrome Extension to provide simplified access to key internal API functions, thereby enhancing team usability and convenience',
@@ -25,7 +26,7 @@ const cv = {
       company: 'GlobalLogic, Hybrid',
       period: 'Feb 2019 – Oct 2021 (2Y 9M)',
       industry: 'Telecommunications',
-      outline: 'Product Installation and Verification lifecycle for a major telecom vendor',
+      outline: 'Leading a Team of 5, supporting product lifecycle for a major telecom vendor',
       responsibilities: [
         'Managing workflow across a product line consisting of 10+ supported software versions',
         'Supervising the "Cleanroom" stage for the release of maintenance updates/patches',
@@ -48,7 +49,8 @@ const cv = {
       company: 'GlobalLogic, On-Site',
       period: 'Aug 2016 – Feb 2019 (2Y 7M)',
       industry: 'Telecommunications',
-      outline: 'VAS platform support for a mobile operator',
+      outline:
+        'Being Member of a Team of 3 Engineers, providing VAS platform support for a mobile operator',
       responsibilities: [
         'Facilitating improvement development through communication with customer and developers on business requirements and technical limitations',
         'Oracle RAC 11g configuration and support',
@@ -66,10 +68,8 @@ const cv = {
     '10+ years of experience working in IT industry',
     'Expert knowledge of Linux environment',
     'Exceptional troubleshooting and problem-solving skills',
-    'Rapid decision making',
     'Great English',
-    'Client- and Quality-oriented work ethics',
-    'High capacity for learning and desire for self-improvement'
+    'Client- and Quality-oriented work ethics'
   ],
   recent_tech_experience: {
     Python:
