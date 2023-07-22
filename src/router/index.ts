@@ -18,7 +18,9 @@ const router = createRouter({
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/CVView.vue')
-    }
+    },
+    // will match everything and put it under `$route.params.pathMatch`
+    { path: '/:pathMatch(.*)*', name: 'NotFound', component: HView }
   ]
 })
 
