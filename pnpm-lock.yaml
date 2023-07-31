@@ -26,8 +26,8 @@ devDependencies:
     specifier: ^21.1.1
     version: 21.1.1
   '@types/node':
-    specifier: ^20.4.4
-    version: 20.4.4
+    specifier: ^20.4.5
+    version: 20.4.5
   '@vitejs/plugin-vue':
     specifier: ^4.2.3
     version: 4.2.3(vite@4.4.7)(vue@3.3.4)
@@ -69,7 +69,7 @@ devDependencies:
     version: 5.1.6
   vite:
     specifier: ^4.4.7
-    version: 4.4.7(@types/node@20.4.4)
+    version: 4.4.7(@types/node@20.4.5)
   vite-imagetools:
     specifier: ^5.0.5
     version: 5.0.5
@@ -487,7 +487,7 @@ packages:
   /@types/jsdom@21.1.1:
     resolution: {integrity: sha512-cZFuoVLtzKP3gmq9eNosUL1R50U+USkbLtUQ1bYVgl/lKp0FZM7Cq4aIHAL8oIvQ17uSHi7jXPtfDOdjPwBE7A==}
     dependencies:
-      '@types/node': 20.4.4
+      '@types/node': 20.4.5
       '@types/tough-cookie': 4.0.2
       parse5: 7.1.2
     dev: true
@@ -496,8 +496,8 @@ packages:
     resolution: {integrity: sha512-Hr5Jfhc9eYOQNPYO5WLDq/n4jqijdHNlDXjuAQkkt+mWdQR+XJToOHrsD4cPaMXpn6KO7y2+wM8AZEs8VpBLVA==}
     dev: true
 
-  /@types/node@20.4.4:
-    resolution: {integrity: sha512-CukZhumInROvLq3+b5gLev+vgpsIqC2D0deQr/yS1WnxvmYLlJXZpaQrQiseMY+6xusl79E04UjWoqyr+t1/Ew==}
+  /@types/node@20.4.5:
+    resolution: {integrity: sha512-rt40Nk13II9JwQBdeYqmbn2Q6IVTA5uPhvSO+JVqdXw/6/4glI6oR9ezty/A9Hg5u7JH4OmYmuQ+XvjKm0Datg==}
     dev: true
 
   /@types/semver@7.5.0:
@@ -645,7 +645,7 @@ packages:
       vite: ^4.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 4.4.7(@types/node@20.4.4)
+      vite: 4.4.7(@types/node@20.4.5)
       vue: 3.3.4
     dev: true
 
@@ -3432,10 +3432,10 @@ packages:
       vite: ^3.0.0 || ^4.0.0
     dependencies:
       mime-types: 2.1.35
-      vite: 4.4.7(@types/node@20.4.4)
+      vite: 4.4.7(@types/node@20.4.5)
     dev: true
 
-  /vite@4.4.7(@types/node@20.4.4):
+  /vite@4.4.7(@types/node@20.4.5):
     resolution: {integrity: sha512-6pYf9QJ1mHylfVh39HpuSfMPojPSKVxZvnclX1K1FyZ1PXDOcLBibdq5t1qxJSnL63ca8Wf4zts6mD8u8oc9Fw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -3463,7 +3463,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.4.4
+      '@types/node': 20.4.5
       esbuild: 0.18.16
       postcss: 8.4.27
       rollup: 3.26.3
