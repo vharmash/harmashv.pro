@@ -17,22 +17,23 @@ import ToTop from './ToTop.vue'
     </template>
     <template #heading>Introduction</template>
     <p>
-      Hi, I'm Volodymryr, a seasoned IT professional with over ten years in the tech industry, specializing in Linux
-      server management, Python scripting, and operational efficiency using JavaScript, Groovy, Jenkins, GIT/Gerrit, among
-      others.</p>
-    <p>
-
-      I am well-versed in troubleshooting, quick decision-making, and prioritizing client satisfaction. My career at
-      GlobalLogic has honed my skills in managing complex systems, automating tasks, and providing team leadership.
+      Hi, I'm Volodymryr, a seasoned IT professional with over ten years in the tech industry,
+      specializing in Linux server management, Python scripting, and operational efficiency using
+      JavaScript, Groovy, Jenkins, GIT/Gerrit, among others.
     </p>
     <p>
-      Beyond technical expertise, I am known for my fast-paced learning, self-improvement, and a can-do attitude. My
-      ambition and attention to detail fuel my drive for perfection, while my communication skills enable me to excel in
-      team settings.
+      I am well-versed in troubleshooting, quick decision-making, and prioritizing client
+      satisfaction. My career at GlobalLogic has honed my skills in managing complex systems,
+      automating tasks, and providing team leadership.
     </p>
     <p>
-      Check out my experiences and skills below to see how I've contributed to GlobalLogic's digital footprint, and how my
-      expertise and dedication can be a valuable addition to your team.
+      Beyond technical expertise, I am known for my fast-paced learning, self-improvement, and a
+      can-do attitude. My ambition and attention to detail fuel my drive for perfection, while my
+      communication skills enable me to excel in team settings.
+    </p>
+    <p>
+      Check out my experiences and skills below to see how I've contributed to GlobalLogic's digital
+      footprint, and how my expertise and dedication can be a valuable addition to your team.
     </p>
     <p>Please feel free to reach out to me at <a href="">LinkedIn</a></p>
   </WelcomeItem>
@@ -71,4 +72,5 @@ import ToTop from './ToTop.vue'
     </template>
   </WelcomeItem>
 
-<ToTop /></template>
+  <ToTop />
+</template>
