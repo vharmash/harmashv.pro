@@ -74,8 +74,8 @@ devDependencies:
     specifier: ^5.0.5
     version: 5.0.5
   vite-plugin-inject-preload:
-    specifier: ^1.3.1
-    version: 1.3.1(vite@4.4.7)
+    specifier: ^1.3.2
+    version: 1.3.2(vite@4.4.7)
   vue-tsc:
     specifier: ^1.8.8
     version: 1.8.8(typescript@5.1.6)
@@ -3425,8 +3425,8 @@ packages:
       - rollup
     dev: true
 
-  /vite-plugin-inject-preload@1.3.1(vite@4.4.7):
-    resolution: {integrity: sha512-ESLexLaTl7hThHXaabGz902A+Xgu9tTONZKUT0LRCdqtRlcXbuB3gFjIsmVmZvozr+eS9ntutZfrakCFb9ocCA==}
+  /vite-plugin-inject-preload@1.3.2(vite@4.4.7):
+    resolution: {integrity: sha512-ymAl7bt2+sUgvqMsNwzwVGpq/R8NaNP8baTcgwPxg6/YAr0RX1rh/9ipZfTG9ZSK4rfFq6EV6gZqPrXsqUdyFg==}
     engines: {node: '>=14.18.0'}
     peerDependencies:
       vite: ^3.0.0 || ^4.0.0
