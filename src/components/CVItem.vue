@@ -9,7 +9,6 @@ const dog = defineProps({
 })
 
 const entry = toRef(dog, 'item')
-
 </script>
 <template v-if="entry">
   <div
