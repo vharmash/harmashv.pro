@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { ref } from 'vue'
+import { toRef } from 'vue'
 
 const dog = defineProps({
   item: {
@@ -8,7 +8,8 @@ const dog = defineProps({
   }
 })
 
-const entry = ref(dog.item)
+const entry = toRef(dog, 'item')
+
 </script>
 <template v-if="entry">
   <div
