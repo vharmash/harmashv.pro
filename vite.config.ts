@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite'
 import { imagetools } from 'vite-imagetools'
-import VitePluginInjectPreload from 'vite-plugin-inject-preload'
+import UnpluginInjectPreload from 'unplugin-inject-preload/vite'
 import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
@@ -14,13 +14,13 @@ export default defineConfig({
     imagetools({
       force: true
     }),
-    VitePluginInjectPreload({
+    UnpluginInjectPreload({
       files: [
         {
-          match: /style-[a-z-0-9]*.(css)$/
+          outputMatch: /style-[a-z-0-9]*.(css)$/
         },
         {
-          match: /index-[a-z-0-9]*.(js)$/,
+          outputMatch: /index-[a-z-0-9]*.(js)$/,
           attributes: {
             rel: 'modulepreload',
             type: undefined
