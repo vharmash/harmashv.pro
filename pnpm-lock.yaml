@@ -60,8 +60,8 @@ devDependencies:
     specifier: ^5.2.2
     version: 5.2.2
   unplugin-inject-preload:
-    specifier: ^1.1.0
-    version: 1.1.0
+    specifier: ^1.1.1
+    version: 1.1.1
   vite:
     specifier: ^4.4.9
     version: 4.4.9(@types/node@20.7.1)
@@ -3418,8 +3418,8 @@ packages:
     engines: {node: '>= 4.0.0'}
     dev: true
 
-  /unplugin-inject-preload@1.1.0:
-    resolution: {integrity: sha512-0FY8gjrXed+YmnIF+wydr9kfnogZePKjvy7497JDAMeAkX3zNm5W3dxzEga53QP7qzwccbHhNmcN1z5S1RQUGQ==}
+  /unplugin-inject-preload@1.1.1:
+    resolution: {integrity: sha512-LbXxsNWxsfkL7cuydOEyBo5Xza9rHy6mdUJF6N7G4qmKRO5Tn9zNodljs07Co2C6cATuHvRYGIy7MGb9VxAmvA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       html-webpack-plugin: '>=5.0.0'
