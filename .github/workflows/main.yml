@@ -1,4 +1,4 @@
-run-name: Deploy to ${{ inputs.deploy_target }} by @${{ github.actor }}
+run-name: Deploy to GHP by @${{ github.actor }}
 name: pages deployer
 on:
   workflow_dispatch:
