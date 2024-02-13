@@ -1,8 +1,5 @@
 run-name: Deploy to ${{ inputs.deploy_target }} by @${{ github.actor }}
 name: pages deployer
-branding:
-  icon: 'activity'  
-  color: 'blue'
 on:
   workflow_dispatch:
 jobs:
