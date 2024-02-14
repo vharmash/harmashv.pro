@@ -11,9 +11,7 @@ export default defineConfig({
   },
   plugins: [
     vue(),
-    imagetools({
-      force: true
-    }),
+    imagetools({}),
     UnpluginInjectPreload({
       files: [
         {
