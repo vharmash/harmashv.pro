@@ -2,7 +2,7 @@
   <transition name="fade">
     <div
       v-show="visible"
-      class="vue-back-to-top cursor-pointer fixed z-[1000] py-2 rounded-md border border-amber-500 bg-zinc-800/50 blend-screen rounded-md shadow-sm"
+      class="vue-back-to-top cursor-pointer fixed z-[1000] py-2 rounded-md border border-amber-500 bg-zinc-800/50 blend-screen shadow-sm"
       :style="`bottom:${bottom};right:${right};`"
       @click="backToTop"
     >
