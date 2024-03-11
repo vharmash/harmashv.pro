@@ -36,6 +36,6 @@
     "vite-imagetools": "^6.2.9",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0",
-    "vue-tsc": "^2.0.4"
+    "vue-tsc": "^2.0.6"
   }
 }
