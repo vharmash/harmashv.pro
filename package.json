@@ -33,7 +33,7 @@
     "typescript": "^5.4.3",
     "unplugin-inject-preload": "^2.0.3",
     "vite": "^5.2.7",
-    "vite-imagetools": "^6.2.9",
+    "vite-imagetools": "^7.0.1",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0",
     "vue-tsc": "^2.0.7"
