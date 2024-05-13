@@ -1,9 +1,21 @@
 const cv = {
   professional_experience: [
     {
+      role: 'Application Staging Engineer',
+      company: 'GlobalLogic, Remote',
+      period: 'Feb 2024 – Present',
+      industry: 'Telecommunications',
+      outline:
+        'Part of a continuous integration/automation team, supporting product lifecycle for a major telecom vendor (again)',
+      responsibilities: ['Working on Spinnaker pipelines, jiggling Jenkins files'],
+      impact: [
+        "Back to the project I've left in 2021, working at the different area and the release cycle place of the same Product "
+      ]
+    },
+    {
       role: 'Senior Product Support Engineer',
       company: 'GlobalLogic, Remote',
-      period: 'Oct 2021 – Present',
+      period: 'Oct 2021 – Feb 2024, (2Y 4M)',
       industry: 'Digital Media Supply Chain',
       outline:
         'Leading a Team of 10, providing support for internal workflows of a major media supply chain vendor',
@@ -76,8 +88,8 @@ const cv = {
       'QoL scripting, parsing/manipulating large text, managing multiple files, engaging http API endpoints for bulk operations',
     'Chrome Extensions': 'created a simple extension using VUE/Vite framework with Tailwind CSS',
     JavaScript: 'simple scripting with some TypeScript, Vue.js, jQuery',
-    Groovy: 'pipeline creation/modification',
-    Jenkins: 'job creation, configuration, modification, execution',
+    'Groovy/Jenkins': 'job/pipeline creation/modification',
+    Spinnaker: 'pipeline creation, configuration, modification, execution',
     'GIT/Gerrit': 'code review and change tracking',
     Oracle: 'DBA wannabe, have experience of deploying and basic tuning of Oracle RAC 11g',
     'Basic PL/SQL': 'writing SELECTs and manipulating medium-complexity 3rd party queries',
