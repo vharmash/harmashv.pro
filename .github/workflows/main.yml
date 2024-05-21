@@ -34,6 +34,8 @@ jobs:
           run_install: true
       - name: build
         run: "pnpm build-only"
+      - name: 404 workaround
+        run: "cp ./dist/index.html ./dist/404.html"
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
