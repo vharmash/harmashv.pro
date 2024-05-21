@@ -35,7 +35,7 @@ import ToTop from './ToTop.vue'
       Check out my experiences and skills below to see how I've contributed to GlobalLogic's digital
       footprint, and how my expertise and dedication can be a valuable addition to your team.
     </p>
-    <p>Please feel free to reach out to me at <a href="">LinkedIn</a></p>
+    <p>Please feel free to reach out to me at <a href="https://www.linkedin.com/in/volodymyr-harmash/">LinkedIn</a></p>
   </WelcomeItem>
 
   <WelcomeItem>
