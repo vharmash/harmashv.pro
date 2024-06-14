@@ -23,7 +23,5 @@ updates:
           # dependency name)
           applies-to: version-updates # Applies the group rule to version updates
           patterns:
-            - "rubocop" # A single dependency name
-            - "rspec*"  # A wildcard string that matches multiple dependency names
             - "*"       # A wildcard that matches all dependencies in the package
                         # ecosystem. Note: using "*" may open a large pull request
