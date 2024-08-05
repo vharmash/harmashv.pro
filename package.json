@@ -9,20 +9,26 @@
     "preview": "vite preview",
     "build-only": "vite build",
     "type-check": "vue-tsc  --build --force",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
+    "lint": "eslint . --fix -c eslint.config.js",
     "format": "prettier --write src/"
   },
+  "peerDependencyRules": {
+    "allowedVersions": {
+      "eslint": "9"
+    }
+  },
   "devDependencies": {
+    "@eslint/compat": "^1.1.1",
     "@rushstack/eslint-patch": "^1.10.4",
     "@tailwindcss/typography": "^0.5.13",
     "@tsconfig/node20": "^20.1.4",
     "@types/jsdom": "^21.1.7",
-    "@types/node": "^22.0.0",
-    "@vitejs/plugin-vue": "^5.1.1",
+    "@types/node": "^22.1.0",
+    "@vitejs/plugin-vue": "^5.1.2",
     "@vue/eslint-config-prettier": "^9.0.0",
     "@vue/eslint-config-typescript": "^13.0.0",
     "@vue/tsconfig": "^0.5.1",
-    "autoprefixer": "^10.4.19",
+    "autoprefixer": "^10.4.20",
     "eslint": "^9.8.0",
     "eslint-plugin-vue": "^9.27.0",
     "jsdom": "^24.1.1",
@@ -34,8 +40,8 @@
     "unplugin-inject-preload": "^2.0.5",
     "vite": "^5.3.5",
     "vite-imagetools": "^7.0.4",
-    "vue": "^3.4.34",
-    "vue-router": "^4.4.0",
+    "vue": "^3.4.35",
+    "vue-router": "^4.4.2",
     "vue-tsc": "^2.0.29"
   }
 }
