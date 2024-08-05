@@ -5,17 +5,17 @@
     <div class="flex gap-2 pt-4 pb-2">
       <div class="">
         <i class="flex items-center place-content-center place-items-center w-8 h-8">
-          <slot name="icon"></slot>
+          <slot name="icon" />
         </i>
       </div>
       <div>
         <h3 class="p-0 m-0">
-          <slot name="heading"></slot>
+          <slot name="heading" />
         </h3>
       </div>
     </div>
     <div class="details">
-      <slot></slot>
+      <slot />
     </div>
   </div>
 </template>

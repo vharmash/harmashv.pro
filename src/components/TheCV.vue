@@ -15,7 +15,7 @@ import ToTop from './ToTop.vue'
     <template #icon>
       <GreetingIcon />
     </template>
-    <template #heading>Introduction</template>
+    <template #heading> Introduction </template>
     <p>
       Hi, I'm Volodymryr, a seasoned IT professional with over ten years in the tech industry,
       specializing in Linux server management, Python scripting, and operational efficiency using
@@ -35,14 +35,17 @@ import ToTop from './ToTop.vue'
       Check out my experiences and skills below to see how I've contributed to GlobalLogic's digital
       footprint, and how my expertise and dedication can be a valuable addition to your team.
     </p>
-    <p>Please feel free to reach out to me at <a href="https://www.linkedin.com/in/volodymyr-harmash/">LinkedIn</a></p>
+    <p>
+      Please feel free to reach out to me at
+      <a href="https://www.linkedin.com/in/volodymyr-harmash/">LinkedIn</a>
+    </p>
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
       <CommunityIcon />
     </template>
-    <template #heading>Quick Summary</template>
+    <template #heading> Quick Summary </template>
     <ul class="my-2">
       <li v-for="item of cv.general_summary" :key="item" class="m-0">
         {{ item }}
@@ -54,7 +57,7 @@ import ToTop from './ToTop.vue'
     <template #icon>
       <SupportIcon />
     </template>
-    <template #heading>Recent Tech Experience</template>
+    <template #heading> Recent Tech Experience </template>
     <ul class="my-1">
       <li v-for="(value, key) in cv.recent_tech_experience" :key="key" class="m-0 py-0">
         <strong class="strong">{{ key }}:</strong> <span>{{ value }}</span>
@@ -66,7 +69,7 @@ import ToTop from './ToTop.vue'
     <template #icon>
       <ToolingIcon />
     </template>
-    <template #heading>Experience</template>
+    <template #heading> Experience </template>
     <template v-for="item of cv.professional_experience" :key="item.period">
       <CVItem :item="item" />
     </template>

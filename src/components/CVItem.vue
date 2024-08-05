@@ -32,7 +32,9 @@ const entry = toRef(dog, 'item')
         </div>
       </div>
     </div>
-    <div class="font-medium text-amber-50 pt-1 pr-2 mr-2">{{ entry.outline }}</div>
+    <div class="font-medium text-amber-50 pt-1 pr-2 mr-2">
+      {{ entry.outline }}
+    </div>
     <h5 class="italic font-light tracking-wider">Impact:</h5>
     <ul class="my-2">
       <li v-for="i in entry.impact" :key="i" class="p-0 m-0">

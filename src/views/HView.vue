@@ -48,7 +48,7 @@
           >LinkedIn
         </a>
         or explore my
-        <RouterLink to="/cv" class="">CV</RouterLink>
+        <RouterLink to="/cv" class=""> CV </RouterLink>
         to discover more.
       </p>
     </div>

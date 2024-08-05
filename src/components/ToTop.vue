@@ -32,7 +32,7 @@
 import { defineComponent, onMounted, onUnmounted, ref } from 'vue'
 
 export default defineComponent({
-  name: 'vue-go-top',
+  name: 'VueGoTop',
   props: {
     text: {
       type: String,
@@ -55,6 +55,7 @@ export default defineComponent({
       default: '3rem'
     }
   },
+  emits: ['scrolled'],
   setup(props, context) {
     const visible = ref(false)
 
@@ -95,8 +96,7 @@ export default defineComponent({
       visible,
       backToTop
     }
-  },
-  emits: ['scrolled']
+  }
 })
 </script>
 
