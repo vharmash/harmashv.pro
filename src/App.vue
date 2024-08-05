@@ -2,13 +2,13 @@
 import { RouterLink, RouterView } from 'vue-router'
 import IconFlag from './components/icons/IconFlag.vue'
 import IconLinkedIn from './components/icons/IconLinkedIn.vue'
-// @ts-ignore
+// @ts-expect-error No types for the images provided I guess
 import srcsetAvif from './assets/facepic.png?w=100;200;300&format=avif&as=srcset'
-// @ts-ignore
+// @ts-expect-error No types for the images provided I guess
 import srcsetWebp from './assets/facepic.png?w=100;200;300&format=webp&as=srcset'
 
 // create a small placeholder and import its metadata
-// @ts-ignore
+// @ts-expect-error No types for the images provided I guess
 import { src as placeholder, width, height } from './assets/facepic.png?w=200&as=metadata'
 </script>
 

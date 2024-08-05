@@ -1,20 +1,27 @@
 // eslint.config.js
 import { includeIgnoreFile } from '@eslint/compat'
+import { FlatCompat } from '@eslint/eslintrc'
+import pluginVue from 'eslint-plugin-vue'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
-import pluginVue from 'eslint-plugin-vue'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 const gitignorePath = path.resolve(__dirname, '.gitignore')
+const compat = new FlatCompat({
+  baseDirectory: __dirname
+})
 
 export default [
-  ...pluginVue.configs['flat/recommended'],
   includeIgnoreFile(gitignorePath),
   {
     // your overrides
   },
+  ...pluginVue.configs['flat/recommended'],
+  ...compat.extends('@vue/eslint-config-typescript/recommended'),
+  ...compat.extends('@vue/eslint-config-prettier/skip-formatting'),
   {
+    // .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts
     files: [
       '**/*.ts',
       '**/*.tsx',
@@ -26,8 +33,6 @@ export default [
       '**/*.cts',
       '**/*.mts'
     ]
-
     // any additional configuration for these file types here
-    // .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts
   }
 ]
