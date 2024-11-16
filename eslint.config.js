@@ -13,13 +13,6 @@ const compat = new FlatCompat({
 })
 
 export default [
-  includeIgnoreFile(gitignorePath),
-  {
-    // your overrides
-  },
-  ...pluginVue.configs['flat/recommended'],
-  ...compat.extends('@vue/eslint-config-typescript/recommended'),
-  ...compat.extends('@vue/eslint-config-prettier/skip-formatting'),
   {
     // .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts
     files: [
@@ -34,5 +27,9 @@ export default [
       '**/*.mts'
     ]
     // any additional configuration for these file types here
-  }
+  },
+  includeIgnoreFile(gitignorePath),
+  ...pluginVue.configs['flat/recommended'],
+  // ...compat.extends('@vue/eslint-config-typescript/recommended'),
+  ...compat.extends('@vue/eslint-config-prettier/skip-formatting')
 ]
