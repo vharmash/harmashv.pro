@@ -1,10 +1,10 @@
 <template>
   <main
-    class="prose prose-zinc !prose-invert lg:prose-lg prose-strong:font-medium prose-h3:text-lg prose-p:my-4 max-w-none hover:prose-a:text-cyan-400 prose-a:decoration-amber-600 pt-0 px-4 pb-2 mb-3 mt-0 rounded-md border border-zinc-600 hover:border-zinc-500 hover:shadow-sm"
+    class="prose prose-zinc prose-invert! lg:prose-lg prose-strong:font-medium prose-h3:text-lg prose-p:my-4 max-w-none prose-a:hover:text-cyan-400 prose-a:decoration-amber-600 pt-0 px-4 pb-2 mb-3 mt-0 rounded-md border border-zinc-600 hover:border-zinc-500 hover:shadow-xs"
   >
     <div class="">
       <!-- This icon is from <https://github.com/Templarian/MaterialDesign>, distributed under Apache 2.0 (https://www.apache.org/licenses/LICENSE-2.0) license-->
-      <h3 class="p-0 pb-2 !my-3 flex gap-2 items-center">
+      <h3 class="p-0 pb-2 my-3! flex gap-2 items-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"

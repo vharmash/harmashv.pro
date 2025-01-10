@@ -12,7 +12,7 @@ const entry = toRef(dog, 'item')
 </script>
 <template v-if="entry">
   <div
-    class="prose prose-stone !prose-invert prose-base max-w-none prose-li:my-0 hover:border-zinc-500 hover:shadow-sm px-4 py-2 mb-3 rounded-md border border-zinc-700"
+    class="prose prose-stone prose-invert! prose-base max-w-none prose-li:my-0 hover:border-zinc-500 hover:shadow-xs px-4 py-2 mb-3 rounded-md border border-zinc-700"
   >
     <div class="flex items-center pb-2">
       <div class="md:pl-10 pr-4 grow">
