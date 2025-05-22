@@ -1,5 +1,7 @@
 # harmashv.pro
 
+[![Test Suite](https://github.com/vharmash/harmashv.pro/actions/workflows/test.yml/badge.svg)](https://github.com/vharmash/harmashv.pro/actions/workflows/test.yml) [![CodeQL](https://github.com/vharmash/harmashv.pro/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/vharmash/harmashv.pro/actions/workflows/github-code-scanning/codeql) 
+
 This is the repository for my personal CV site, built using Vue and Vite to be deployed on GitHub Pages.
 
 A lot of the text was written with the help of ChatGPT - my English may be good, but its writing is next level.
