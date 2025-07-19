@@ -2,12 +2,14 @@ import { describe, it, expect } from 'vitest'
 import { mount } from '@vue/test-utils'
 import { createRouter, createWebHistory } from 'vue-router'
 import HView from '@/views/HView.vue'
+import CVView from '@/views/CVView.vue'
 
 // Create a mock router
 const router = createRouter({
   history: createWebHistory(),
   routes: [
-    { path: '/cv', component: {} }
+    { path: '/', component: HView },
+    { path: '/cv', component: CVView }
   ]
 })
 
