@@ -28,18 +28,18 @@ describe('App', () => {
     expect(wrapper.findAll('nav a').length).toBe(3)
     
     // Verify home link
-    const homeLink = wrapper.findAll('nav a')[0]
+    const homeLink = wrapper.findAll('nav a')[0]!
     expect(homeLink.text()).toContain('Home')
     expect(homeLink.attributes('href')).toBe('/')
 
-    
+
     // Verify CV link
-    const cvLink = wrapper.findAll('nav a')[1]
+    const cvLink = wrapper.findAll('nav a')[1]!
     expect(cvLink.text()).toContain('CV')
     expect(cvLink.attributes('href')).toBe('/cv')
-    
+
     // Verify LinkedIn link
-    const linkedInLink = wrapper.findAll('nav a')[2]
+    const linkedInLink = wrapper.findAll('nav a')[2]!
     expect(linkedInLink.attributes('href')).toContain('linkedin.com/in/volodymyr-harmash')
   })
 
