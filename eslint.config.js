@@ -2,6 +2,7 @@
 import { includeIgnoreFile } from '@eslint/compat'
 import { FlatCompat } from '@eslint/eslintrc'
 import pluginVue from 'eslint-plugin-vue'
+import tseslint from '@vue/eslint-config-typescript'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -30,6 +31,6 @@ export default [
   },
   includeIgnoreFile(gitignorePath),
   ...pluginVue.configs['flat/recommended'],
-  // ...compat.extends('@vue/eslint-config-typescript/recommended'),
+  ...tseslint(),
   ...compat.extends('@vue/eslint-config-prettier/skip-formatting')
 ]
