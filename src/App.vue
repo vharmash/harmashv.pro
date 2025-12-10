@@ -48,7 +48,7 @@ import { src as placeholder, width, height } from './assets/facepic.png?w=200&as
         </div>
         <div>
           <picture class="w-36 lg:w-48">
-            <source :scrset="srcsetAvif" type="image/avif" />
+            <source :srcset="srcsetAvif" type="image/avif" />
             <source :srcset="srcsetWebp" type="image/webp" />
             <img :src="placeholder" :width="width" :height="height" alt="Profile Pic" />
           </picture>
