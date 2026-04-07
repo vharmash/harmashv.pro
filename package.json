@@ -22,6 +22,11 @@
       "eslint": "9"
     }
   },
+  "pnpm": {
+    "overrides": {
+      "rollup": ">=4.59.0"
+    }
+  },
   "devDependencies": {
     "@eslint/compat": "^2.0.4",
     "@eslint/eslintrc": "^3.3.5",
