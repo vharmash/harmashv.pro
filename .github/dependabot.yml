@@ -22,6 +22,7 @@ updates:
           # Define patterns to include dependencies in the group (based on
           # dependency name)
           applies-to: version-updates # Applies the group rule to version updates
+          update-types: ["version-update:semver-patch", "version-update:semver-minor"]
           patterns:
             - "*"       # A wildcard that matches all dependencies in the package
                         # ecosystem. Note: using "*" may open a large pull request
