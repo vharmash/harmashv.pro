@@ -30,7 +30,7 @@ jobs:
       - uses: pnpm/action-setup@v6
         name: Install pnpm
         with:
-          version: latest
+          version: v10
           run_install: true
       - name: build
         run: "pnpm build-only"
