@@ -2,3 +2,11 @@ onlyBuiltDependencies:
   - '@tailwindcss/oxide'
   - esbuild
   - sharp
+
+overrides:
+  undici: '>=7.28.0 <8'
+
+peerDependencyRules:
+  allowedVersions:
+    eslint: '10'
+    tailwindcss: '4.3.2'

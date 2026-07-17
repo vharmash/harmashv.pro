@@ -24,8 +24,8 @@ jobs:
     - name: Install pnpm
       uses: pnpm/action-setup@v6
       with:
-        version: v10
-        run_install: false
+version: v11
+          run_install: false
 
     - name: Get pnpm store directory
       shell: bash

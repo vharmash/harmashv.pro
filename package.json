@@ -17,16 +17,6 @@
     "test:e2e": "vitest run tests/e2e/*.spec.ts",
     "test:unit": "vitest run tests/unit/**/*.spec.ts"
   },
-  "peerDependencyRules": {
-    "allowedVersions": {
-      "eslint": "9"
-    }
-  },
-  "pnpm": {
-    "overrides": {
-      "rollup": ">=4.59.0"
-    }
-  },
   "devDependencies": {
     "@eslint/compat": "^2.1.0",
     "@eslint/eslintrc": "^3.3.6",
