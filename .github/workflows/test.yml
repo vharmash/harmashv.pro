@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   test:
@@ -41,19 +41,7 @@ jobs:
           ${{ runner.os }}-pnpm-store-
 
     - name: Install dependencies
-      run: |
-        if [ "${{ github.actor }}" = "dependabot[bot]" ]; then
-          echo "Dependabot PR: regenerating pnpm-lock.yaml under minimumReleaseAge guardrail"
-          rm -f pnpm-lock.yaml
-          pnpm install
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add pnpm-lock.yaml
-          git diff --staged --quiet || git commit -m "Regenerate pnpm-lock.yaml under minimumReleaseAge policy"
-          git push
-        else
-          pnpm install
-        fi
+      run: pnpm install
 
     - name: Run linter
       run: pnpm lint
