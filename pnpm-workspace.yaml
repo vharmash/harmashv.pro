@@ -3,6 +3,9 @@ onlyBuiltDependencies:
   - esbuild
   - sharp
 
+minimumReleaseAge: 1440
+minimumReleaseAgeStrict: true
+
 overrides:
   brace-expansion: '>=5.0.8'
 
