@@ -23,15 +23,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v7
-      - name: Install Node.js
-        uses: actions/setup-node@v7
-        with:
-          node-version: latest
-      - uses: pnpm/action-setup@v6.0.9
-        name: Install pnpm
+      - uses: pnpm/setup@v2
+        name: Install pnpm and Node.js
         with:
           version: v11
-          run_install: true
+          runtime: node@latest
+          install: true
       - name: build
         run: "pnpm build-only"
       - name: 404 workaround
